@@ -45,6 +45,15 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.authors %}
+          <div class="paper-authors">{{ page.authors | markdownify }}</div>
+        {% endif %}
+        {% if page.paperurl %}
+          <div class="paper-link"><a href="{{ page.paperurl }}" class="btn" target="_blank">PDF</a></div>
+        {% endif %}
+        {% if page.abstract %}
+          <div class="paper-abstract"><strong></strong> {{ page.abstract | markdownify }}</div>
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
