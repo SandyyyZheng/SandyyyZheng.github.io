@@ -22,7 +22,7 @@ repository               : "SandyyyZheng/SandyyyZheng.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sandy_pic.png"
   name             : "Muyang(Sandy) Zheng"
   pronouns         : # example: "she/her"  
   bio              : "MSCS Student at UC Davis"
