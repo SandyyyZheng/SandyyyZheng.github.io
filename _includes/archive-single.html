@@ -86,5 +86,9 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
+    {% if post.bibtexurl %}
+      <div class="paper-bibtex"><a href="{{ post.bibtexurl }}" class="btn" target="_blank">BibTeX</a></div>
+    {% endif %}
+
   </article>
 </div>
