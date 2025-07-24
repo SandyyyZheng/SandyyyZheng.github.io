@@ -54,9 +54,6 @@ layout: default
         {% if page.abstract %}
           <div class="paper-abstract"><strong></strong> {{ page.abstract | markdownify }}</div>
         {% endif %}
-        {% if page.bibtexurl %}
-          <div class="paper-bibtex"><a href="{{ page.bibtexurl }}" class="btn" target="_blank">BibTeX</a></div>
-        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
