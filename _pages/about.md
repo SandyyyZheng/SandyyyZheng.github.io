@@ -13,9 +13,9 @@ I am currently an M.S. student in Computer Science at [University of California,
 - **[06/2025]** Our paper *MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning* is available on arXiv. [[paper]](https://arxiv.org/abs/2506.16792)
 
 ## 🎃 Placeholder
-If bored, see Supplemental Material below (better in dark mode): My Little Animation. Research suggests that it improves mood by 42% ± reviewer bias [1].
+If bored, see Supplementary Material below (better in dark mode): a meaningless tiny animation I made myself. Research suggests that it improves mood by 42% ± reviewer bias [1].
 
-<div style="text-align: center; margin-top: 30px;">
+<div style="text-align: center; margin-top: 20px;">
   <img src="/images/Christine.GIF" alt="Christine" style="max-width: 170px; border-radius: 8px;">
 </div>
 
