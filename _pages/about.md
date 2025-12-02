@@ -16,5 +16,5 @@ I am currently an M.S. student in Computer Science at [University of California,
 Blank as [the Shire](https://en.wikipedia.org/wiki/The_Shire) on a Monday morning — peaceful, but not much going on.
 
 <div style="text-align: center; margin-top: 30px;">
-  <img src="/images/Christine.GIF" alt="Christine" style="max-width: 300px; border-radius: 8px;">
+  <img src="/images/Christine.GIF" alt="Christine" style="max-width: 150px; border-radius: 8px;">
 </div>
