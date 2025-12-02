@@ -13,8 +13,11 @@ I am currently an M.S. student in Computer Science at [University of California,
 - **[06/2025]** Our paper *MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning* is available on arXiv. [[paper]](https://arxiv.org/abs/2506.16792)
 
 ## 🎃 Placeholder
-Blank as [the Shire](https://en.wikipedia.org/wiki/The_Shire) on a Monday morning — peaceful, but not much going on.
+If bored, see Supplemental Material below: My Little Animation. It improves mood by 42% ± reviewer bias [1].
 
 <div style="text-align: center; margin-top: 30px;">
   <img src="/images/Christine.GIF" alt="Christine" style="max-width: 150px; border-radius: 8px;">
 </div>
+
+## References
+[1] ConcernedApe. *Stardew Valley*. Video game. Published by Chucklefish. Released February 26, 2016.
