@@ -2,12 +2,14 @@
 permalink: /
 title: "About Sandy"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently an M.S. student in Computer Science at [University of California, Davis](https://www.ucdavis.edu/), advised by [Prof. Lifu Huang](https://wilburone.github.io/). Prior to that, I earned my B.E. degree in Information Security at [Hefei University of Technology](https://www.hfut.edu.cn/) (HFUT), advised by [Prof. Yuanzhi Yao](http://faculty.hfut.edu.cn/yaoyz/zh_CN/index.htm). I’ve worked on LLM safety and am currently exploring video understanding for MLLMs.
+<img src="/images/Christine.GIF" alt="Christine" style="float: right; margin-left: 20px; margin-bottom: 10px; max-width: 200px; border-radius: 8px;">
+
+I am currently an M.S. student in Computer Science at [University of California, Davis](https://www.ucdavis.edu/), advised by [Prof. Lifu Huang](https://wilburone.github.io/). Prior to that, I earned my B.E. degree in Information Security at [Hefei University of Technology](https://www.hfut.edu.cn/) (HFUT), advised by [Prof. Yuanzhi Yao](http://faculty.hfut.edu.cn/yaoyz/zh_CN/index.htm). I've worked on LLM safety and am currently exploring video understanding for MLLMs.
 
 ## 🍟 News
 - **[06/2025]** Our paper *MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning* is available on arXiv. [[paper]](https://arxiv.org/abs/2506.16792)
