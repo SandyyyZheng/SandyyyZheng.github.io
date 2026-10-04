@@ -185,9 +185,6 @@ html[data-theme="dark"] .academic-home {
 .academic-home .news-list li { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 15px; padding: 14px 0; }
 .academic-home .news-list time { padding-top: 2px; color: var(--global-text-color-light); font-size: 12px; font-variant-numeric: tabular-nums; }
 .academic-home .news-list p { margin: 0; font-size: 14px; line-height: 1.75; }
-.academic-home .page__footer { border-top: 1px solid var(--global-border-color); color: var(--global-text-color-light); }
-.academic-home .page__footer footer { max-width: 1184px; padding: 20px 32px; font-size: 11px; }
-.academic-home .page__footer-follow { margin-bottom: 8px; }
 
 @media (max-width: 1100px) and (min-width: 925px) {
   .academic-home #main { grid-template-columns: 190px minmax(0, 1fr); gap: 40px; }
@@ -223,7 +220,6 @@ html[data-theme="dark"] .academic-home {
   .academic-home .research-visual { max-width: 400px; width: 100%; }
   .academic-home .research-copy h3 { font-size: 18px; }
   .academic-home .news-list li { grid-template-columns: 70px minmax(0, 1fr); gap: 12px; }
-  .academic-home .page__footer footer { padding: 20px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
