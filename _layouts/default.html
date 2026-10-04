@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.homepage %} class="academic-home"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

@@ -1,3 +1,8 @@
+# Personal homepage
+
+For local preview and editing instructions, see [PREVIEW.md](PREVIEW.md).
+Run `npm run preview` to preview changes before pushing to GitHub.
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

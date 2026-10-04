@@ -8,8 +8,17 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "About"
+    url: /#about
+
+  - title: "Research"
+    url: /#research
+
+  - title: "News"
+    url: /#news
+
   - title: "CV"
-    url: "https://sandyyyzheng.github.io/files/CV__Personal_Page.pdf"
+    url: /files/CV__Personal_Page.pdf
 
   # - title: "Publications"
   #   url: /publications/

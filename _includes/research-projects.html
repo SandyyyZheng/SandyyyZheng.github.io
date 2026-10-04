@@ -1,0 +1,44 @@
+<section class="home-research" id="research" aria-labelledby="research-heading">
+  <h2 id="research-heading">Selected Research Projects</h2>
+  <div class="research-list">
+    {% for project in site.data.research %}
+    <article class="research-project" aria-labelledby="{{ project.id }}-title">
+      <div class="research-visual">
+        {% if project.image and project.image != "" %}
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy" width="640" height="400" />
+        {% else %}
+        <div class="research-placeholder" role="img" aria-label="{{ project.name | escape }}: figure in progress">
+          <svg class="construction-illustration" width="84" height="50" viewBox="0 0 84 50" fill="none" aria-hidden="true">
+            <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M28 31L23 44M56 31L61 44M25 12V7M59 12V7" />
+              <rect class="construction-panel" x="13" y="12" width="58" height="20" rx="3" />
+              <path d="M17 26L27 16M33 28L45 16M51 28L63 16" stroke-width="4" opacity="0.65" />
+              <path d="M12 45H72" opacity="0.3" />
+              <path d="M6 9H12M9 6V12M76 24H80" opacity="0.4" />
+            </g>
+          </svg>
+          <span class="placeholder-status">Project under construction</span>
+          <span class="placeholder-caption">{{ project.name }}</span>
+        </div>
+        {% endif %}
+      </div>
+      <div class="research-copy">
+        <div class="research-meta">
+          <span>{{ project.area }}</span>
+          <span class="research-venue">{{ project.venue }}</span>
+          {% if project.authorship %}
+          <span class="research-authorship">{{ project.authorship }}</span>
+          {% endif %}
+        </div>
+        <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
+        <p class="research-tldr"><span class="tldr-label">TL;DR</span> {{ project.tldr }}</p>
+        <ul class="research-links" aria-label="{{ project.name | escape }} resources">
+          {% for link in project.links %}
+          <li><a href="{{ link.url }}" aria-label="{{ project.name | escape }} {{ link.label | escape }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

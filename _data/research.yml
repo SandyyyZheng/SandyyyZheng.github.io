@@ -1,0 +1,48 @@
+# Projects appear in this order on the homepage.
+# Add an image path such as /images/research/glide.png to replace a placeholder.
+- id: glide
+  name: GliDe
+  area: Agentic AI · Multimodal Reasoning
+  venue: ACM MM 2026
+  authorship: First author
+  title: Open-Ended Video Game Glitch Detection with Agentic Reasoning and Temporal Grounding
+  tldr: "An agentic framework that detects glitches in gameplay videos, explains what went wrong, and pinpoints when it happened."
+  image: "/images/research/glide.png"
+  image_alt: "Overview of the GliDe framework for detecting and temporally grounding video game glitches."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2604.07818
+    - label: Code
+      url: https://github.com/SandyyyZheng/GliDe
+    - label: Dataset
+      url: https://huggingface.co/datasets/SandyZheng33/VideoGlitchBench
+
+- id: mist
+  name: MIST
+  area: Trustworthy LLMs
+  venue: arXiv 2025 (Under Review)
+  authorship: First author
+  title: "MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning"
+  tldr: "Iterative, meaning-preserving prompt refinement exposes safety vulnerabilities in black-box LLMs without access to their internals."
+  image: "/images/research/mist.png"
+  image_alt: "Overview of MIST's iterative semantic tuning method for evaluating black-box LLM safety."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2506.16792
+    - label: Code
+      url: https://github.com/SandyyyZheng/MIST
+
+- id: longhorizon
+  name: Long-Horizon Video Understanding Benchmark
+  area: Video Understanding · Long-Horizon Reasoning
+  venue: Manuscript in Progress
+  # authorship: First author
+  title: "Benchmarking Long-Horizon State Reasoning in Videos"
+  tldr: "A comprehensive benchmark evaluating how multimodal models track entities, reconstruct evolving states, and integrate evidence across long videos."
+  image: ""
+  image_alt: "Overview of long-horizon video understanding benchmark."
+  # links:
+    # - label: Paper
+      # url: https://arxiv.org/abs/2506.16792
+    # - label: Code
+      # url: https://github.com/SandyyyZheng/MIST

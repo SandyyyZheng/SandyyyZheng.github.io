@@ -1,17 +1,36 @@
 ---
 permalink: /
 title: "About Sandy"
+homepage: true
+excerpt: "Muyang (Sandy) Zheng is an M.S. student at UC Davis researching agentic AI, multimodal reasoning, and trustworthy LLMs."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently an M.S. student in Computer Science at University of California, Davis, advised by [Dr. Lifu Huang](https://wilburone.github.io/). Prior to that, I earned my B.E. degree in Information Security at Hefei University of Technology in 2025, advised by [Dr. Yuanzhi Yao](http://faculty.hfut.edu.cn/yaoyz/zh_CN/index.htm). My research focuses on Agentic AI, Multimodal Reasoning, and Trustworthy LLMs.
+<div class="home-intro" id="about" markdown="1">
 
+<p class="home-eyebrow">Computer Science · UC Davis</p>
 
-## 🍟 News
+I am an M.S. student in Computer Science at University of California, Davis, advised by [Dr. Lifu Huang](https://wilburone.github.io/). My research focuses on **agentic AI, multimodal reasoning, and trustworthy LLMs**.
 
-- **[07/2026]** Our paper *Open-Ended Video Game Glitch Detection with Agentic Reasoning and Temporal Grounding* is accepted to **ACM MM 2026**! 🌴🥂🍻🍾 [[paper]](https://arxiv.org/abs/2604.07818)  [[code]](https://github.com/SandyyyZheng/GliDe)  [[dataset]](https://huggingface.co/datasets/SandyZheng33/VideoGlitchBench)
+Previously, I earned my B.Eng. in Information Security at Hefei University of Technology in 2025, advised by [Dr. Yuanzhi Yao](http://faculty.hfut.edu.cn/yaoyz/zh_CN/index.htm).
 
-- **[06/2025]** Our paper *MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning* is available on arXiv. [[paper]](https://arxiv.org/abs/2506.16792)  [[code]](https://github.com/SandyyyZheng/MIST)
+</div>
+
+{% include research-projects.html %}
+
+<section class="home-news" id="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  <ul class="news-list">
+    <li>
+      <time datetime="2026-07">Jul 2026</time>
+      <p>Our work on <a href="https://arxiv.org/abs/2604.07818">open-ended video game glitch detection</a> has been accepted to <strong>ACM MM 2026</strong>!</p>
+    </li>
+    <li>
+      <time datetime="2025-06">Jun 2025</time>
+      <p><a href="https://arxiv.org/abs/2506.16792">MIST</a>, our work on jailbreaking black-box LLMs through iterative semantic tuning, is available on arXiv.</p>
+    </li>
+  </ul>
+</section>
