@@ -11,9 +11,7 @@ redirect_from:
 
 <div class="home-intro" id="about" markdown="1">
 
-<p class="home-eyebrow">Computer Science · UC Davis</p>
-
-I am an M.S. student in Computer Science at University of California, Davis, advised by [Dr. Lifu Huang](https://wilburone.github.io/). My research focuses on **agentic AI, multimodal reasoning, and trustworthy LLMs**.
+I am a second-year M.S. student in Computer Science at University of California, Davis, advised by [Dr. Lifu Huang](https://wilburone.github.io/). My research focuses on **agentic AI, multimodal reasoning, and trustworthy LLMs**.
 
 Previously, I earned my B.Eng. in Information Security at Hefei University of Technology in 2025, advised by [Dr. Yuanzhi Yao](http://faculty.hfut.edu.cn/yaoyz/zh_CN/index.htm).
 
@@ -26,7 +24,7 @@ Previously, I earned my B.Eng. in Information Security at Hefei University of Te
   <ul class="news-list">
     <li>
       <time datetime="2026-07">Jul 2026</time>
-      <p>Our work on <a href="https://arxiv.org/abs/2604.07818">open-ended video game glitch detection</a> has been accepted to <strong>ACM MM 2026</strong>!</p>
+      <p>Our work on <a href="https://arxiv.org/abs/2604.07818">open-ended video game glitch detection</a> has been accepted to <strong>ACM MM 2026</strong>! Many thanks to my awesome mentors and collaborators!</p>
     </li>
     <li>
       <time datetime="2025-06">Jun 2025</time>

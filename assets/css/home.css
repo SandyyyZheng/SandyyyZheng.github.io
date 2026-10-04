@@ -18,6 +18,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
+  padding-bottom: 48px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -67,6 +68,7 @@ html[data-theme="dark"] .academic-home {
   line-height: 1.2;
 }
 .academic-home .page__content { font-size: 16px; }
+.academic-home .page__meta { display: none; }
 .academic-home .page__content a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .academic-home .page__content strong { font-weight: 600; }
 .academic-home .page__content p { margin-bottom: 16px; }
@@ -185,6 +187,7 @@ html[data-theme="dark"] .academic-home {
 .academic-home .news-list li { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 15px; padding: 14px 0; }
 .academic-home .news-list time { padding-top: 2px; color: var(--global-text-color-light); font-size: 12px; font-variant-numeric: tabular-nums; }
 .academic-home .news-list p { margin: 0; font-size: 14px; line-height: 1.75; }
+.academic-home .site-last-updated { max-width: 1184px; margin-top: 24px; padding: 0 32px; font-size: 11px; }
 
 @media (max-width: 1100px) and (min-width: 925px) {
   .academic-home #main { grid-template-columns: 190px minmax(0, 1fr); gap: 40px; }
@@ -192,6 +195,7 @@ html[data-theme="dark"] .academic-home {
 }
 
 @media (max-width: 924px) {
+  .academic-home .site-last-updated { max-width: 820px; padding: 0 28px; }
   .academic-home #main { grid-template-columns: minmax(0, 1fr); gap: 32px; max-width: 820px; margin-top: 30px; padding: 0 28px; }
   .academic-home .sidebar { position: static; max-height: none; overflow: visible; }
   .academic-home .sidebar > div { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 0 22px; }
@@ -209,6 +213,7 @@ html[data-theme="dark"] .academic-home {
 }
 
 @media (max-width: 600px) {
+  .academic-home .site-last-updated { padding: 0 20px; }
   .academic-home .masthead__inner-wrap { padding: 12px 20px; }
   .academic-home .masthead__menu-item--lg { font-size: 14px; padding-right: 8px; }
   .academic-home .greedy-nav a { margin: 0 10px; }

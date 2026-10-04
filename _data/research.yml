@@ -19,7 +19,7 @@
 
 - id: mist
   name: MIST
-  area: Trustworthy LLMs
+  area: LLM Safety · Jailbreak Attack
   venue: arXiv 2025 (Under Review)
   authorship: First author
   title: "MIST: Jailbreaking Black-box Large Language Models via Iterative Semantic Tuning"
@@ -34,9 +34,9 @@
 
 - id: longhorizon
   name: Long-Horizon Video Understanding Benchmark
-  area: Video Understanding · Long-Horizon Reasoning
+  area: Long-Horizon Video Reasoning
   venue: Manuscript in Progress
-  # authorship: First author
+  authorship: Project Lead
   title: "Benchmarking Long-Horizon State Reasoning in Videos"
   tldr: "A comprehensive benchmark evaluating how multimodal models track entities, reconstruct evolving states, and integrate evidence across long videos."
   image: ""

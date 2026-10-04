@@ -2,6 +2,17 @@
    FOOTER
    ========================================================================== */
 
+.site-last-updated {
+  clear: both;
+  max-width: $x-large;
+  margin: 0 auto;
+  padding: 0 1em;
+  color: var(--global-text-color-light);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: right;
+}
+
 .page__footer {
   @include clearfix;
   background-color: var(--global-footer-bg-color);
