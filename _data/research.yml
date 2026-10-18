@@ -10,6 +10,9 @@
   image: "/images/research/glide.png"
   image_alt: "Overview of the GliDe framework for detecting and temporally grounding video game glitches."
   links:
+    - label: Project Page
+      url: https://sandyyyzheng.github.io/glide-project-page/
+      primary: true
     - label: Paper
       url: https://arxiv.org/abs/2604.07818
     - label: Code

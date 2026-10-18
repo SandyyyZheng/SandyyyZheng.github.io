@@ -34,7 +34,7 @@
         <p class="research-tldr"><span class="tldr-label">TL;DR</span> {{ project.tldr }}</p>
         <ul class="research-links" aria-label="{{ project.name | escape }} resources">
           {% for link in project.links %}
-          <li><a href="{{ link.url }}" aria-label="{{ project.name | escape }} {{ link.label | escape }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
+          <li><a href="{{ link.url }}"{% if link.primary %} class="research-link-primary"{% endif %} aria-label="{{ project.name | escape }} {{ link.label | escape }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
           {% endfor %}
         </ul>
       </div>
