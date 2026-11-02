@@ -22,7 +22,8 @@ repository               : "SandyyyZheng/SandyyyZheng.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "sandy_avatar_xmas.JPG"
+  avatar           : "light.JPG"
+  avatar_dark      : "dark.jpeg"
   name             : "Muyang (Sandy) Zheng"
   pronouns         : # example: "she/her"  
   bio              : "MSCS Student at UC Davis"

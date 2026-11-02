@@ -2,7 +2,7 @@
 
 <!-- start custom head snippets -->
 {% if page.homepage %}
-<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
 {% endif %}
 
 <!-- Support for Academicons -->

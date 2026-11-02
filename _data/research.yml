@@ -40,7 +40,7 @@
   area: Long-Horizon Video Reasoning
   venue: Manuscript in progress
   authorship: Project lead
-  title: "Benchmarking Long-Horizon State Reasoning in Videos"
+  title: "Benchmarking Long-Horizon Video Understanding"
   tldr: "A comprehensive benchmark evaluating how multimodal models track entities, reconstruct evolving states, and integrate evidence across long videos."
   image: ""
   image_alt: "Overview of long-horizon video understanding benchmark."
