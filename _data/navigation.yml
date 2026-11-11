@@ -17,6 +17,9 @@ main:
   - title: "News"
     url: /#news
 
+  - title: "Misc"
+    url: /#misc
+
   - title: "CV"
     url: /files/CV__Personal_Page.pdf
 

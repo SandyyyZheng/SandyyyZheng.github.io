@@ -13,6 +13,10 @@ layout: compress
 
   <body{% if page.homepage %} class="academic-home"{% endif %}>
 
+    {% if page.homepage %}
+    {% include ambient-background.html %}
+    {% endif %}
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 

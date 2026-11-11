@@ -1,4 +1,7 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+{% if page.homepage %}
+<script defer src="{{ '/assets/js/home-motion.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+{% endif %}
 
 {% include footer/custom.html %}
 

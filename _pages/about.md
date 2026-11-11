@@ -32,3 +32,17 @@ Previously, I earned my B.Eng. in Information Security at Hefei University of Te
     </li>
   </ul>
 </section>
+
+<section class="home-misc" id="misc" aria-labelledby="misc-heading">
+  <h2 id="misc-heading">Miscellaneous</h2>
+  <!-- Replace the placeholder below with your own text, links, or lists. -->
+  <div class="misc-content" markdown="1">
+
+In case you are more interested in **me** than my research......
+
+I am deeply obssessed with *mystery* and (especially linguistic) *puzzle* games. Here is part of my steam library: Rusty Lake, Return of the Obra Dinn, Slay the Princess, Chants of Sennaar, The Message from Deep Space, Word Game, and Baba Is You.
+
+I guess this is the end. Thank you for reading this far :)
+
+  </div>
+</section>
